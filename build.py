@@ -518,7 +518,7 @@ def page_midia(theme):
     midia = [
         ("Jornal Minuano", "Publicações no Minuano Conecta", "Artigos assinados por Clarisse Ismério com foco em patrimônio, memória, história das mulheres e sensibilidades.", "blog.html", "Ver no site →"),
         ("Urcamp", "Cultura, Memória e Patrimônio", "Registros institucionais da atuação de Clarisse Ismério em projetos, pesquisa e extensão ligados ao patrimônio cultural.", "https://urcamp.edu.br/", "Acessar portal →"),
-        ("Urcamp", "Notícias da Urcamp", "Portal de notícias da universidade com cobertura institucional de ações acadêmicas, culturais e patrimoniais.", "https://urcamp.edu.br/busca/news", "Ver notícias →"),
+        ("Urcamp", "Matérias de Clarisse Ismério na Urcamp", "Seleção de notícias da Urcamp relacionadas a Clarisse Ismério, reunindo ações acadêmicas, culturais e patrimoniais.", "https://urcamp.edu.br/busca?search=clarisse+Ism%C3%A9rio&startDate=&endDate=&types%5B%5D=news", "Ver matérias →"),
     ]
     for src, tit, desc, href, label in midia:
         extra = ' target="_blank" rel="noopener"' if href.startswith("http") else ""
