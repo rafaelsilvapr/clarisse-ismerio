@@ -185,7 +185,6 @@ body.t3 .mcard h4{color:var(--text)}
 .post{display:grid;grid-template-columns:.92fr 1.08fr;gap:34px;align-items:center;padding:32px 0;border-bottom:1px solid var(--border)}
 .post:first-of-type{border-top:1px solid var(--border)}
 .post .thumb{aspect-ratio:2/1;border-radius:var(--radius-lg);background-size:cover;background-position:center;border:1px solid var(--border)}
-.post .cat{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-strong)}
 .post h3{font-family:var(--f-head);font-size:1.6rem;color:var(--primary);margin:8px 0 8px}
 body.t3 .post h3{color:var(--text)}
 .post .by{font-size:.82rem;color:var(--text-soft);margin-bottom:10px}
@@ -560,14 +559,17 @@ def page_palestras(theme):
     body = phead("Palestras", "Conteúdo rigoroso e envolvente para o seu evento") + f'''
 <section class="block"><div class="wrap split">
   <div>
-    <span class="kicker">Temas</span>
-    <h2>Sobre o que Clarisse fala</h2>
+    <span class="kicker">Temas de Palestras</span>
+    <h2>Temas de Palestras</h2>
     <ul class="lead-list">
-      <li>História das mulheres e o universo feminino</li>
-      <li>Educação patrimonial e o Sarau Noturno</li>
-      <li>Memória, cultura e sensibilidades</li>
-      <li>História do Brasil e da Campanha gaúcha</li>
-      <li>A história como ferramenta de transformação</li>
+      <li>Escrita Científica</li>
+      <li>Patrimônio Cultural e Educação Patrimonial</li>
+      <li>Educação Patrimonial Cemiterial</li>
+      <li>História das Mulheres e suas representações</li>
+      <li>Mulheres na Ciência</li>
+      <li>Simbolismos e representações no espaço urbano</li>
+      <li>Metodologias para o ensino de História</li>
+      <li>Projeto História em Objetos: metodologias para o Ensino de História na Educação Básica</li>
     </ul>
   </div>
   <img class="full" src="{IMG}/sarau-noturno.jpeg" alt="Sarau Noturno">
